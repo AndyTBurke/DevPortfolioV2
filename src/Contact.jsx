@@ -1,6 +1,7 @@
 import React from "react"
 import email_icon from "./assets/email_icon.png"
 import linkedin_logo from "./assets/linkedin_logo.png"
+import mastodon_logo from "./assets/mastodon_logo.png"
 
 export default function Contact() {
 
@@ -21,9 +22,15 @@ export default function Contact() {
 
     return (
         <div style={containerStyle}>
-            <img src={email_icon} style={imgStyle} />
-            <img src={linkedin_logo} style={imgStyle} />
-            <img src={email_icon} style={imgStyle} />
+            <a href="mailto: andrewtburke@gmail.com">
+                <img src={email_icon} style={imgStyle} />
+            </a>
+            <a href="https://www.linkedin.com/in/andrew-burke-mke/">
+                <img src={linkedin_logo} style={imgStyle} />
+            </a>
+            <a href="https://techhub.social/@andyb">
+                <img src={mastodon_logo} style={imgStyle} />
+            </a>
         </div>
     )
 }

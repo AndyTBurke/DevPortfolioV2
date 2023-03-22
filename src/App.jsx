@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from "./Hero"
 import Nav from "./Nav"
-import Projects from './assets/Projects'
+import Projects from './Projects'
 import WhatIKnow from "./WhatIKnow"
 import Contact from './Contact'
 
