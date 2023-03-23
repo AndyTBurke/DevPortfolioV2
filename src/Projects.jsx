@@ -43,15 +43,23 @@ export default function Hero() {
         fontSize: "1.1em"
     }
 
+    const projectTitle = {
+        margin: ".1em",
+        textDecoration: "underline"
+    }
+
     return (
         <div style={containerStyle}>
             <h2>PROJECTS</h2>
             <div style={projectContainerStyle}>
-                <h3>TURKEY TIMER</h3>
+                <h3 style={projectTitle}>TURKEY TIMER</h3>
                 <div style={projectCardStyle}>
                     <img src={turkey_timer_project} style={projectImgStyle} />
                     <p style={projectDescriptionStyle}>Turkey Timer is a React-based front-end web project that estimates the cooking time for a turkey based on input such as weight, cooking method, and stuffing/frozen status. The tool is designed to help users better plan their Thanksgiving meals, by reducing the stress of keeping track of multiple recipes at once. The project was inspired by my experience of spatchcocking a turkey, and the difficulty of remembering how long it takes to cook.</p>
                 </div>
+                <h4>
+                   LIVE PROJECT || VIEW CODE
+                </h4>
             </div>
             <div style={projectContainerStyle}>
                 project 2
