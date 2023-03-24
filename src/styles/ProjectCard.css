@@ -1,0 +1,53 @@
+.project-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.project-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 1.5em;
+}
+
+.project-details > a > img {
+    width: auto;
+    height: 280px;
+    max-width: 280px;
+    max-height: 280px;
+    border: 3px solid rgb(187, 248, 248);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.project-details > a > img:hover {
+    transform: scale(1.06);
+    transition: all 0.3s ease-in-out;
+}
+
+.project-details > p {
+    padding: .5em 0 .5em 2em;
+    line-height: 1.2em;
+    font-size: large;
+    margin: 0;
+}
+
+.defaultButton {
+    background-color: #213547;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    margin: .9em 1em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+.defaultButton:hover {
+    background-color: #1b2d3e;
+  }
