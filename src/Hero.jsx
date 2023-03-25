@@ -12,7 +12,8 @@ export default function Hero() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        margin: "1em 0"
+        margin: "1em 0",
+        fontFamily: "'Montserrat', sans-serif"
     }
 
     return (
