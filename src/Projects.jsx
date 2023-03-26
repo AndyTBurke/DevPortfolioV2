@@ -6,7 +6,7 @@ import { projectData } from "./data/projectData.js"
 export default function Hero() {
 
     const containerStyle = {
-        background: "#ADD8E6",
+        background: "#C7E3F7",
         width: "45rem",
         padding: ".2em 1em",
         borderRadius: "20px",

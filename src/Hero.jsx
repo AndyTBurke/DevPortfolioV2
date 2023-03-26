@@ -1,25 +1,15 @@
 import React from "react"
 import profile_img from "./assets/profile_img.png"
+import './styles/Hero.css'
 
 export default function Hero() {
 
-    const containerStyle = {
-        background: "#ADD8E6",
-        width: "45rem",
-        padding: ".2em 1em",
-        borderRadius: "20px",
-        color: "#213547",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        margin: "1em 0",
-        fontFamily: "'Montserrat', sans-serif"
-    }
-
     return (
-        <div style={containerStyle}>
+        <div className="hero-container">
             <img src={profile_img} style={{width: "230px"}} />
-            <h1>Hello! My name is <span style={{display: "inline-block"}}>Andrew Burke,</span> and I make web apps.</h1>
+            <h1 className="hero-title">
+                Hello! My name is <span style={{display: "inline-block"}}><span className="hero-name">Andrew Burke</span>,</span> and I make web apps.
+            </h1>
         </div>
     )
 }

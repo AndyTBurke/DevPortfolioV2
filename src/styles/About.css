@@ -1,5 +1,5 @@
 .about-me-container {
-    background: #d3e9f2;
+    background: #96c9ef;
     width: 45rem;
     padding: .7em 1em;
     border-radius: 20px;
@@ -26,7 +26,7 @@
 }
 
 .imgStyle:hover {
-    filter: drop-shadow(0 0 10px rgb(132, 155, 255));
+    filter: drop-shadow(0 0 10px #54a7e5);
 }
 
 .about-me-icons {

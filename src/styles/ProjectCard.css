@@ -6,6 +6,14 @@
     margin-bottom: 1em;
 }
 
+.project-card-container > h3 {
+    background-color: #96c9ef;
+    width: 93%;
+    padding: .5em 0;
+    text-align: center;
+    border-radius: 15px;
+}
+
 .project-details {
     display: flex;
     justify-content: space-around;
@@ -35,17 +43,23 @@
     margin: 0;
 }
 
+.button-div {
+    width: 93%;
+}
+
 .defaultButton {
     background-color: #213547;
     color: #fff;
     border: none;
     border-radius: 4px;
-    padding: 12px 24px;
-    margin: .9em 1em;
-    font-size: 16px;
+    padding: 10px 0px;
+    margin: .3em 0em;
+    font-size: 14px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    display: block;
+    width: 100%
   }
   
 .defaultButton:hover {

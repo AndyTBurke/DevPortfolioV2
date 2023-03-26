@@ -1,0 +1,21 @@
+.hero-container {
+    background: #C7E3F7;
+    width: 45rem;
+    padding: .2em 1em;
+    border-radius: 20px;
+    color: #213547;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-title {
+    font-size: 1.6em;
+}
+
+.hero-name:hover {
+    transition: all 0.3s ease-in-out;
+    color: #54a7e5;
+}

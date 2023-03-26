@@ -1,5 +1,5 @@
 .contact-container {
-    background: #d3e9f2;
+    background: #96c9ef;
     width: 45rem;
     padding: .7em 1em;
     border-radius: 20px;
@@ -38,5 +38,5 @@
 }
 
 .contact-images:hover {
-    filter: drop-shadow(0 0 12px rgb(95, 113, 187));
+    filter: drop-shadow(0 0 12px #54a7e5);
 }
