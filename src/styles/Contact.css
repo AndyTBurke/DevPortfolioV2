@@ -1,0 +1,42 @@
+.contact-container {
+    background: #d3e9f2;
+    width: 45rem;
+    padding: .7em 1em;
+    border-radius: 20px;
+    color: #213547;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.contact-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.contact-icon-container > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #213547;
+    font-weight: bold;
+}
+
+.contact-icon-container > a:hover {
+    color: black;
+}
+
+.contact-images {
+    height: 4em;
+    filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0));
+    transition: filter 0.3s ease-in-out;
+}
+
+.contact-images:hover {
+    filter: drop-shadow(0 0 12px rgb(95, 113, 187));
+}
