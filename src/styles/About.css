@@ -1,12 +1,22 @@
-.containerStyle {
+.about-me-container {
     background: #d3e9f2;
     width: 45rem;
     padding: .7em 1em;
     border-radius: 20px;
     color: #213547;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.about-me-container > h2 {
+    margin: .5em;
+}
+
+.about-me-container > p {
+    margin: 0;
+    padding: 1em 2em;
 }
 
 .imgStyle {
@@ -17,4 +27,10 @@
 
 .imgStyle:hover {
     filter: drop-shadow(0 0 10px rgb(132, 155, 255));
+}
+
+.about-me-icons {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
 }
