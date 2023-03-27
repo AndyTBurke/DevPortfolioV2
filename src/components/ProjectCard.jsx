@@ -13,10 +13,10 @@ export default function ProjectCard(props) {
             </div>
             <div className="button-div">
                 <a href={props.projectLiveLink}>
-                    <button className="defaultButton">LIVE PROJECT</button>
+                    <button className="defaultButton">SEE LIVE PROJECT</button>
                 </a>
                 <a href={props.projectGitLink}>
-                    <button className="defaultButton">VIEW CODE</button>
+                    <button className="defaultButton">VIEW THE CODE</button>
                 </a>
             </div>
     </div>
