@@ -20,7 +20,7 @@ export default function About() {
 
     return (
         <div className="about-me-container">
-            <h2>About Me</h2>
+            <h2>ABOUT ME</h2>
             <p>{aboutMetext}</p>
             <div className="about-me-icons">
                 <img src={html_logo} className="imgStyle" />

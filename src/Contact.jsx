@@ -8,7 +8,7 @@ export default function Contact() {
 
     return (
         <div className="contact-container">
-            <h2>Contact Me</h2>
+            <h2>CONTACT ME</h2>
             <div className="contact-icon-container">
                 <a href="mailto: andrewtburke@gmail.com">
                     <img src={email_icon} className="contact-images"/>

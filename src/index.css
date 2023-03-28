@@ -6,4 +6,6 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(to bottom, #C7E3F7, #96c9ef, #213547);
 }
+

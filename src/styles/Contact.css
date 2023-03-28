@@ -40,3 +40,15 @@
 .contact-images:hover {
     filter: drop-shadow(0 0 12px #54a7e5);
 }
+
+@media only screen and (max-width: 768px) {
+    .contact-container {
+        width: 30rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .contact-container {
+        width: 22rem;
+    }
+}

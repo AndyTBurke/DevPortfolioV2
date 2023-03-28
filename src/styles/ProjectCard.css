@@ -71,3 +71,16 @@
 .defaultButton:hover {
     background-color: #5693cc;
   }
+
+  @media only screen and (max-width: 768px) {
+    .project-details {
+        flex-direction: column;
+    }
+
+    .project-details > p {
+        padding: .3em 0;
+        line-height: 1.2em;
+        font-size: large;
+        margin: 0;
+    }
+}
