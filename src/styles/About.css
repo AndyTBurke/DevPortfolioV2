@@ -45,4 +45,10 @@
     .about-me-container {
         width: 22rem;
     }
+
+    .about-me-container > p {
+        margin: 0;
+        padding: 1em .2em;
+    }
+    
 }
