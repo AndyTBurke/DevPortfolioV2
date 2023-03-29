@@ -1,7 +1,7 @@
 .project-main-container {
     background: #C7E3F7;
     width: 45rem;
-    padding: .2em 1em;
+    padding: 1em 1em;
     border-radius: 20px;
     color: #213547;
     display: flex;
@@ -9,6 +9,10 @@
     justify-content: center;
     align-items: center;
     margin: 1em 0;
+}
+
+.project-main-container > h2 {
+    margin: 0;
 }
 
 @media only screen and (max-width: 768px) {
