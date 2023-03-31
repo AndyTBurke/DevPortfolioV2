@@ -3,6 +3,7 @@ import './styles/Contact.css'
 import email_icon from "./assets/email_icon.png"
 import linkedin_logo from "./assets/linkedin_logo.png"
 import mastodon_logo from "./assets/mastodon_logo.png"
+import {NavLink} from "react-router-dom"
 
 export default function Contact() {
 
@@ -18,10 +19,10 @@ export default function Contact() {
                     <img src={linkedin_logo} className="contact-images" />
                     LinkedIn
                 </a>
-                <a href="https://techhub.social/@andyb">
+                <NavLink to="/mastodon">
                     <img src={mastodon_logo} className="contact-images" />
                     Mastodon
-                </a>
+                </NavLink>
             </div>
         </div>
     )
