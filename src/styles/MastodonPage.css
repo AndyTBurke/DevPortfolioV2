@@ -1,0 +1,6 @@
+.Mastodon-Page {
+    background-color: #02020e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

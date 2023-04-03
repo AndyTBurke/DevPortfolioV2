@@ -1,0 +1,24 @@
+.toot-container {
+    background-color: #010b3b;
+    color: #9dbdd8;
+    width: 60%;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.toot-timestamp {
+    margin: 0;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.toot-content {
+    margin: 0;
+    background-color: #041258;
+    padding: .1em 1.4em;
+}
+
+a {
+    text-decoration: none;
+    color: #74addb;
+}

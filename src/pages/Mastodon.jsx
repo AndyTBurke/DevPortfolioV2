@@ -1,4 +1,6 @@
 import React from "react"
+import TootCard from "../components/TootCard"
+import "../styles/MastodonPage.css"
 
 export default function Mastodon() {
 
@@ -10,13 +12,18 @@ export default function Mastodon() {
             .then(data => setToots(data))
     }, [])
 
-    const displayToots = toots.map(toot => <p><div dangerouslySetInnerHTML={{__html: toot.content}} /></p>)
-    console.log(displayToots)
+    const tootCards = toots.map(toot => <TootCard 
+        content={toot.content}
+        timestamp={toot.created_at}
+        boostCount={toot.reblogs_count}
+        repliesCount={toot.replies_count}
+        />)
+    console.log(toots[0])
 
     return (
-        <>
-        <h1>Mastodon Feed</h1>
-        <h3>{displayToots}</h3>
-        </>
+        <div className="Mastodon-Page">
+            <h1>Mastodon Feed</h1>
+            {tootCards}
+        </div>
     )
 }
