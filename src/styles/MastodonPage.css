@@ -4,3 +4,10 @@
     flex-direction: column;
     align-items: center;
 }
+
+.Mastodon-Page > h1 {
+    color:bisque;
+    background-color: navy;
+    padding: .5em 2em;
+    border-radius: 20px;
+}

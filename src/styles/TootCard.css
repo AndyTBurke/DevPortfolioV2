@@ -18,7 +18,23 @@
     padding: .1em 1.4em;
 }
 
+.toot-info-div {
+    display: flex;
+}
+
+.toot-info-div > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .3em 1em;
+}
+
 a {
     text-decoration: none;
     color: #74addb;
+}
+
+.mastodon-icon {
+    height: 1.4em;
+    margin: 0 .4em;
 }

@@ -17,6 +17,8 @@ export default function Mastodon() {
         timestamp={toot.created_at}
         boostCount={toot.reblogs_count}
         repliesCount={toot.replies_count}
+        favoritesCount={toot.favourites_count}
+        tootUrl={toot.url}
         />)
     console.log(toots[0])
 
