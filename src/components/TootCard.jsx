@@ -6,7 +6,6 @@ import favorite_icon from "../assets/favorite_icon.png"
 import link_icon from "../assets/link_icon.png"
 
 export default function TootCard(props) {
-    console.log(props)
     const tootTime = new Date(props.timestamp)
 
     return (

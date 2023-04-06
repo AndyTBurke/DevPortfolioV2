@@ -1,13 +1,15 @@
 .toot-container {
     background-color: #010b3b;
-    color: #9dbdd8;
+    color: #d9daf1;
     width: 60%;
     margin: 1em 0;
     padding: 1em;
+    max-width: 24em;
+    border-radius: 20px;
 }
 
-.toot-timestamp {
-    margin: 0;
+.toot-time {
+    margin: .2em 1em;
     font-size: .8em;
     font-weight: bold;
 }
@@ -20,12 +22,14 @@
 
 .toot-info-div {
     display: flex;
+    margin: 0;
+    justify-content: space-around;
 }
 
 .toot-info-div > p {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: .3em 1em;
 }
 
@@ -35,6 +39,12 @@ a {
 }
 
 .mastodon-icon {
-    height: 1.4em;
-    margin: 0 .4em;
+    height: 1.5em;
+    margin: 0 .3em;
+}
+
+@media only screen and (max-width: 480px) {
+    .toot-info-div > p {
+        margin: .3em 0;
+    }
 }
