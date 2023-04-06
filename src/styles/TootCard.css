@@ -1,10 +1,9 @@
 .toot-container {
     background-color: #010b3b;
     color: #d9daf1;
-    width: 60%;
+    width: 24em;
     margin: 1em 0;
     padding: 1em;
-    max-width: 24em;
     border-radius: 20px;
 }
 
@@ -38,6 +37,10 @@ a {
     color: #74addb;
 }
 
+span.invisible {
+    display: none;
+}
+
 .mastodon-icon {
     height: 1.5em;
     margin: 0 .3em;
@@ -46,5 +49,9 @@ a {
 @media only screen and (max-width: 480px) {
     .toot-info-div > p {
         margin: .3em 0;
+    }
+
+    .toot-container {
+        width: 100%
     }
 }
