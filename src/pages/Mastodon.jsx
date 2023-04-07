@@ -26,8 +26,8 @@ export default function Mastodon() {
         repliesCount={toot.replies_count}
         favoritesCount={toot.favourites_count}
         tootUrl={toot.url}
+        tootMedia={toot.media_attachments}
         />)
-    console.log(mastoProfile)
 
     return (
         <div className="Mastodon-Page">

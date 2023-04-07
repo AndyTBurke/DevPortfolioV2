@@ -2,8 +2,8 @@
     background-color: #010b3b;
     color: #d9daf1;
     width: 24em;
-    margin: 1em 0;
-    padding: 1em;
+    margin: .3em 0;
+    padding: .3em 1em;
     border-radius: 20px;
 }
 
@@ -44,6 +44,10 @@ span.invisible {
 .mastodon-icon {
     height: 1.5em;
     margin: 0 .3em;
+}
+
+.toot-image {
+    max-width: 24em;
 }
 
 @media only screen and (max-width: 480px) {
