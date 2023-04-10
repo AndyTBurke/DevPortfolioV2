@@ -48,6 +48,8 @@ span.invisible {
 
 .toot-image {
     max-width: 24em;
+    display: block;
+    margin: auto;
 }
 
 @media only screen and (max-width: 480px) {
