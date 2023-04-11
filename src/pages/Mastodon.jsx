@@ -52,6 +52,9 @@ export default function Mastodon() {
                 </div>
             </div>
             {tootCards}
+            <a href="https://aburke.dev">
+                <div className="masto-page-home-btn">BACK TO MAIN</div>
+            </a>
         </div>
     )
 }

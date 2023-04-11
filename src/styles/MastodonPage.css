@@ -10,7 +10,7 @@
 
 .Mastodon-Page-Header > img {
     margin: 1.5em 0 .5em 0;
-    background-color: navy;
+    background-color: #000080;
     padding: 1em 2em;
     border-radius: 20px;
     height: 5.9em;
@@ -35,8 +35,27 @@
     font-size: .8em;
 }
 
+.masto-page-home-btn {
+    width: 24em;
+    background-color: #000080;
+    text-align: center;
+    color: white;
+    padding: .5em 1em;
+    border-radius: 10px;
+    margin-bottom: .5em;
+    cursor: pointer;
+}
+
+.masto-page-home-btn:hover {
+    background-color: #5b4be0;
+}
+
 @media only screen and (max-width: 480px) {
     .Mastodon-Page-Header > img {
         height: 4em;
+    }
+
+    .masto-page-home-btn {
+        width: 100vw;
     }
 }
