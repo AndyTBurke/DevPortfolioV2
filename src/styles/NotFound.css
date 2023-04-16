@@ -7,6 +7,22 @@
 }
 
 .not-found-page > img {
-    width: 15%;
+    width: 25%;
     height: auto; 
+}
+
+.not-found-page > h3 {
+    margin: .5em;
+}
+
+.not-found-return-home {
+    background-color: #040522;
+    padding: .5em 1em;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.not-found-return-home:hover {
+    color: #040522;
+    background-color: #9494a5;
 }
