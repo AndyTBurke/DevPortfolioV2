@@ -6,6 +6,10 @@
     justify-content: center;
 }
 
+.not-found-page > h1 {
+    text-align: center;
+}
+
 .not-found-page > img {
     width: 25%;
     height: auto; 
