@@ -45,7 +45,7 @@ export default function Mastodon() {
                         <p>{`Followers:
                             ${mastoProfile && mastoProfile.followers_count}`}
                         </p>
-                        <p><a href={mastoProfile && mastoProfile.url}>
+                        <p><a href={mastoProfile && mastoProfile.url} rel="me">
                             {mastoProfile && mastoProfile.url.slice(8)}
                         </a></p>
                     </div>
