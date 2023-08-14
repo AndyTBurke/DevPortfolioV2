@@ -1,8 +1,19 @@
 import turkey_timer_project from "../assets/turkey_timer_project.png"
 import colorway_generator_project from  "../assets/colorway_generator_project.png"
 import global_warming_map_project from "../assets/global_warming_map_project.png"
+import bulbs_project from "../assets/bulbs_project.png"
 
 export const projectData = [
+    {
+        projectName: "Bulbs",
+        projectDescription: `Bulbs is designed to help you transform text messages into captivating patterns of 
+            bulbs using binary code, providing an interactive learning experience along the way. Type in a message,
+            convert it to binary, send it to a friend, and they can convert it back to plain text! There is also
+            a learning page which is designed to help you understand how binary and unicode work together.`,
+        projectLiveLink: "https://andytburke.pythonanywhere.com/",
+        projectGitLink: "https://github.com/AndyTBurke/Bulbs",
+        projectImg: bulbs_project
+    },
     {
         projectName: "Turkey Timer",
         projectDescription: `Turkey Timer is a React-based front-end web 
@@ -28,18 +39,5 @@ export const projectData = [
         projectLiveLink: "https://colors.aburke.dev",
         projectGitLink: "https://github.com/AndyTBurke/colorpicker",
         projectImg: colorway_generator_project
-    },
-    {
-        projectName: "Global Warming Heat Map",
-        projectDescription: `The Global Warming Heat Map is a web application that allows 
-            users to visualize temperature data on a grid. The data is displayed in a range 
-            of years between 1754 and 2015, with each cell representing a specific month 
-            and year of data. Users can mouse over each cell to display a tooltip that 
-            contains more information about that particular area, including the corresponding 
-            data-year property. The application is built using HTML, CSS, JavaScript, and 
-            the D3 visualization library.`,
-        projectLiveLink: "https://temp-chart.aburke.dev",
-        projectGitLink: "https://github.com/AndyTBurke/Heat-Map-D3",
-        projectImg: global_warming_map_project
     }
 ]
