@@ -23,7 +23,7 @@ export const projectData = [
             bulbs using binary code, providing an interactive learning experience along the way. Type in a message,
             convert it to binary, send it to a friend, and they can convert it back to plain text! There is also
             a learning page which is designed to help you understand how binary and unicode work together. This project was 
-            built using Pythong and Flask.`,
+            built using Python and Flask.`,
         projectLiveLink: "https://andytburke.pythonanywhere.com/",
         projectGitLink: "https://github.com/AndyTBurke/Bulbs",
         projectImg: bulbs_project
